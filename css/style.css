@@ -1,0 +1,61 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.olahraga {
+  width: 250px;
+  height: 360px;
+  border: 1px solid #dedbd1;
+  background-image: url('images/bg.png'); /* Ganti 'nama-file-gambar.jpg' dengan URL atau path file gambar yang ingin Anda gunakan */
+  background-size: cover; /* Opsional: Mengatur ukuran gambar sesuai elemen */
+  background-repeat: no-repeat; /* Opsional: Menonaktifkan pengulangan gambar jika gambar terlalu kecil */
+}
+  .jumbotron {
+    background-image: url('images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+.clear {
+  clear: both;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul#nav {
+  margin-top: 10px;
+}
+
+ul#nav li {
+  background: #3a85e0;
+  float: left;
+  color: #fff;
+}
+
+ul#nav li a {
+  display: block;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+ul#nav li a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+ul#nav li ul li {
+  float: none;
+}
+
+ul#nav li ul {
+  position: absolute;
+  display: none;
+}
+
+ul#nav li:hover ul {
+  display: block;
+}
